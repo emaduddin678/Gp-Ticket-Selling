@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="logo_bg_main">asd</div>
+    
     <!-- Free Ticket is header start here  -->
     <header>
       <h1>Free Ticket</h1>
@@ -28,7 +30,7 @@
           <div>
             <h2 class="user_name">MD. Fardin Ahmed</h2>
             <p>Student</p>
-            <p><strong>Reg ID:</strong> <span class="reg">2398882</span></p>
+            <p style="margin-top: 10px;"><strong>Reg ID:</strong> <span class="reg">2398882</span></p>
           </div>
         </div>
 
@@ -38,10 +40,12 @@
           </div>
           <div>
             <h1>Gate</h1>
+            <span id="banner-gate-number">14</span>
           </div>
-
+          
           <div class="nid_number">
             <h1>NID</h1>
+            <span id="banner-nid-number">239424914</span>
           </div>
         </div>
       </div>
@@ -156,37 +160,40 @@
     <hr class="line" />
 
     <!-- Ticket Recipt start here  -->
-    <section class="ticket_recipt">
-      <div class="user">
-        <img src="./images/images.jpg" alt="" />
-      </div>
+    <section class="ticket_recipt-box">
+      <div class="logo_bg"></div>
+      <div class="ticket_recipt">
+        <div class="user">
+          <img src="./images/images.jpg" alt="" />
+        </div>
 
-      <div class="recipt_info">
-        <div class="reg_num">
-          <p><strong>Reg ID:</strong> <span class="reg">2398882</span></p>
+        <div class="recipt_info">
+          <div class="reg_num">
+            <p><strong>Reg ID:</strong> <span class="reg">2398882</span></p>
+          </div>
+          <div class="gate">
+            <p><strong>Gate:</strong> <span id="gate_number">14</span></p>
+          </div>
+          <div class="name">
+            <p>
+              <strong>Name:</strong> <span id="user_name">Emad Uddin Emad</span>
+            </p>
+          </div>
+          <div class="mobile">
+            <p>
+              <strong>Mobile:</strong> <span id="user_mobile">01717213847</span>
+            </p>
+          </div>
+          <div class="place">
+            <p><strong>Venue:</strong> Bangladesh Army Stadium, Dhaka.</p>
+            <p><strong>Date:</strong> 20 october 2023,</p>
+            <p><strong>Gates </strong>open at 12:00 PM</p>
+          </div>
         </div>
-        <div class="gate">
-          <p><strong>Gate:</strong> <span id="gate_number">14</span></p>
-        </div>
-        <div class="name">
-          <p>
-            <strong>Name:</strong> <span id="user_name">Emad Uddin Emad</span>
-          </p>
-        </div>
-        <div class="mobile">
-          <p>
-            <strong>Mobile:</strong> <span id="user_mobile">01717213847</span>
-          </p>
-        </div>
-        <div class="place">
-          <p><strong>Venue:</strong> Bangladesh Army Stadium, Dhaka.</p>
-          <p><strong>Date:</strong> 20 october 2023,</p>
-          <p><strong>Gates </strong>open at 12:00 PM</p>
-        </div>
-      </div>
 
-      <div class="qrcode">
-        <img src="./images/QRCode.jpg" alt="" />
+        <div class="qrcode">
+          <img src="./images/QRCode.jpg" alt="" />
+        </div>
       </div>
     </section>
     <!-- Ticket Recipt end here  -->

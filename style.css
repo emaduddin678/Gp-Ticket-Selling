@@ -9,6 +9,7 @@
 
 body {
   padding: 20px 10px;
+  position: relative;
   font-family: "Roboto", sans-serif;
 }
 
@@ -173,12 +174,45 @@ header > p {
 
 /* ticket recipt */
 
+.ticket_recipt-box {
+  position: relative;
+}
+.logo_bg_main {
+  position: absolute;
+  background-image: url("./images/cholobd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 555px;
+  opacity: 0.2;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  z-index: -9999;
+}
+
+.logo_bg {
+  position: absolute;
+  background-image: url("./images/cholobd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.2;
+  /* inset: 0; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -9999;
+  margin: auto;
+}
+
 .ticket_recipt {
   border: 2px solid gray;
   margin: 5px 0 10px;
   display: flex;
 }
-
 .ticket_recipt > div {
   flex: 1;
 }
@@ -191,7 +225,6 @@ header > p {
   grid-template-rows: 1fr 1fr 1fr 1fr 1.6fr;
 }
 .recipt_info > div {
-  
   display: flex;
   align-items: center;
   padding: 10px;
