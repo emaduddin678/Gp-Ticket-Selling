@@ -23,12 +23,12 @@ header {
 }
 
 header > h1 {
-  color: #26AAE1;
+  color: #26aae1;
   font-weight: 900;
   font-size: 64px;
 }
 header > p {
-  background-color: #26AAE1;
+  background-color: #26aae1;
   color: white;
   font-weight: 500;
   padding: 10px 25px;
@@ -96,9 +96,9 @@ header > p {
   border-bottom: none;
 }
 .qrcode {
-    justify-content: space-between !important;
+  justify-content: center !important;
+  padding: 10px;
 }
-
 .qrcode > img {
   width: 70%;
 }
@@ -133,7 +133,7 @@ header > p {
 }
 
 .terms .title {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
   color: red;
   text-align: center;
 }
@@ -152,17 +152,17 @@ header > p {
 }
 
 /* organizer  */
-.organizer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.organizer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.organizer h1{
-    font-size: 20px;
+.organizer h1 {
+  font-size: 20px;
 }
-.organizer img{
-    width: 80px;
+.organizer img {
+  width: 80px;
 }
 
 .line {
@@ -179,43 +179,40 @@ header > p {
   display: flex;
 }
 
-
 .ticket_recipt > div {
   flex: 1;
 }
 
-.recipt_info{
-    flex: 1.4 !important;
-    border-left:  1px solid gray;
-    border-right:  1px solid gray;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1.6fr;
+.recipt_info {
+  flex: 1.4 !important;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1.6fr;
 }
-.recipt_info > div{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 2px solid gray;
-}
-
-.place{
-    flex-direction: column;
-    align-items: flex-start !important;
-    gap: 5px;
-    border-bottom: none !important;
-
+.recipt_info > div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid gray;
 }
 
-
-.ticket_recipt .qrcode{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
+.place {
+  flex-direction: column;
+  align-items: flex-start !important;
+  gap: 5px;
+  border-bottom: none !important;
 }
 
-.bottom_organizer{
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+.ticket_recipt .qrcode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_organizer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
