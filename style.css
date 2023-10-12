@@ -188,9 +188,10 @@ header > p {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1.6fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1.6fr;
 }
 .recipt_info > div {
+  
   display: flex;
   align-items: center;
   padding: 10px;
